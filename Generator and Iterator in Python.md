@@ -1,7 +1,7 @@
 # Generator and Iterator in Python
 ---
 ## 1. Generator:
-A generator in Python is a special type of iterator that allows you to iterate over a sequence of values lazily, meaning it generates values one at a time as they are needed, rather than storing the entire sequence in memory. This makes generators very memory-efficient for handling large datasets or infinite sequences.
+A generator in Python is a special type of iterator (e.g., a list, tuple, dictionary, or set) that allows you to iterate over a sequence of values lazily, meaning it generates values one at a time as they are needed, rather than storing the entire sequence in memory. This makes generators very memory-efficient for handling large datasets or infinite sequences.
 
 ### Key Features of Generators:
 1. **Defined Using `yield`:** Instead of `return`, generators use the `yield` keyword to produce values. When a `yield` statement is encountered, the function's state is saved, and the value is returned to the caller.
